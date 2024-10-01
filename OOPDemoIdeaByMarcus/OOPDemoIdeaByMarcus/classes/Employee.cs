@@ -18,8 +18,8 @@ namespace OOPDemoIdeaByMarcus.classes
      */
     internal class Employee : Person
     {
-        private int employeeID;
-        private int salary;
+        public int EmployeeID { get; set }
+        public int Salary { get; set; }
 
         public Employee(string firstName, string lastName, bool happy, bool busy) : base(firstName, lastName, happy, busy)
         {
@@ -27,8 +27,8 @@ namespace OOPDemoIdeaByMarcus.classes
 
         public Employee(string firstName, string lastName, bool happy, bool busy, int employeeID, int salary) : base(firstName, lastName, happy, busy)
         {
-            this.employeeID = employeeID;
-            this.salary = salary;
+            this.EmployeeID = employeeID;
+            this.Salary = salary;
         }
 
         public void ComplainToBossAboutSalary()
@@ -45,8 +45,6 @@ namespace OOPDemoIdeaByMarcus.classes
         {
             Console.WriteLine($"{FirstName}: 'Im proud to announce {theContest.ContestName}'");
         }
-
-
 
         /*
         This method may require some explanation.It takes two parameters as explained below
