@@ -14,6 +14,7 @@ namespace OOPDemoIdeaByMarcus.classes
         public JavaDeveloper(string firstName, string lastName, bool happy, bool busy, int emplyeeID, int salary) : base(firstName, lastName, happy, busy, emplyeeID, salary)
         {
         }
+
         public void Code()
         {
             Console.WriteLine($"{FirstName} starts writing beautiful {favouriteLanguage} code..");
