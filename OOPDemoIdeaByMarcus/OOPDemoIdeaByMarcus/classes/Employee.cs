@@ -12,9 +12,11 @@ namespace OOPDemoIdeaByMarcus.classes
     {
         private int employeeID;
         private int salary;
+
         public Employee(string firstName, string lastName, bool happy, bool busy) : base(firstName, lastName, happy, busy)
         {
         }
+
         public Employee(string firstName, string lastName, bool happy, bool busy, int employeeID, int salary) : base(firstName, lastName, happy, busy)
         {
             this.employeeID = employeeID;
