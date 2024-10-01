@@ -9,8 +9,8 @@ namespace OOPDemoIdeaByMarcus.abstractclasses
      /*
      Abstract class Person
      An abstract class can not be initialized into an object. In our case, this class consist of some properties
-     and methods that every Person shares. It will be the superclass of Employee. If the application would later
-     have a class for customer, then it could be a subclass of Person as well. That is why we use this instead of
+     and methods that every Person shares. It will be the baseclass of Employee. If the application would later
+     have a class for customer, then it could be a base of Person as well. That is why we use this instead of
      putting the properties and methods of Person into the Employee class.
      */
     internal abstract class Person

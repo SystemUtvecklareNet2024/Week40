@@ -12,7 +12,7 @@ namespace OOPDemoIdeaByMarcus.classes
 {
      /*
      Class Employee
-     A subclass of Person and superclass of JavaDeveloper and DotNetDeveloper.
+     A subclass of Person and baseclass of JavaDeveloper and DotNetDeveloper.
      Adds properties and methods shared by all who are employees.
      Can be initialized into objects.
      */
@@ -56,7 +56,7 @@ namespace OOPDemoIdeaByMarcus.classes
         classes have something in common, they both implement the Developer interface, and we can use the Interface as data type of that parameter.
         Making the method accept an instance of any class(an object) as a parameter as long as it implements the Developer interface.
      
-        The first part of the System.out.println is just to type out the name of the one speaking, and that would be the moderator of the contest.
+        The first part of the Console.WriteLine is just to type out the name of the one speaking, and that would be the moderator of the contest.
         We have an object (theContest), that object have a property of type Employee as the moderator, so we first get the employee object with theContest.getModerator(),
         then we add .getFirstName() to get the firstName from that Employee-object.
         */
